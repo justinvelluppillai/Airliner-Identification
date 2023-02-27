@@ -50,23 +50,7 @@
 				text-decoration: none;
 			}
 		</style>
-		<script>
-			$(document).ready(function() {
-			
-				$(window).scroll(function () {
-					//if you hard code, then use console
-					//.log to determine when you want the 
-					//nav bar to stick.  
-					console.log($(window).scrollTop())
-				if ($(window).scrollTop() > 280) {
-					$('#nav_bar').addClass('navbar-fixed');
-				}
-				if ($(window).scrollTop() < 281) {
-					$('#nav_bar').removeClass('navbar-fixed');
-				}
-			  });
-			}); 
-		</script>
+		<script src="Navbar.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 	</head>
 	<body>
