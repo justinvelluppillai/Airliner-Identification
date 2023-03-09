@@ -1,10 +1,12 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
+		<meta charset="UTF-8">
 		<title> How to identify Aircaft Manufacturers </title>
 		<style>
 			body {
-				height: 4000px;
 				margin: 0px;
+				font-family: arial;
 			}
 
 			.navbar-fixed {
@@ -30,7 +32,7 @@
 
 			#nav_bar {
 				border: 0;
-				background-color: #202020;
+				background-color: cyan;
 				border-radius: 0px;
 				margin-bottom: 0;
 				height: 30px;
@@ -46,32 +48,96 @@
 			}
 			.nav_links li a {
 				padding: 0 15.5px;
-				color: #3498db;
+				color: #0066ff;
 				text-decoration: none;
 			}
+			h1 {
+				margin: 0;
+				position: absolute;
+				top: 110px;
+				left: 50%;
+				-ms-transform: translate(-50%, -50%);
+				transform: translate(-50%, -50%);
+			}
+			table {
+				text-align: center;
+				width: 100%
+			}
+			td {
+				text-align: center;
+				font-size:	150%;
+			}
+			img {
+				width: 100%;
+			}
 		</style>
+		<!--- These scripts make the nav tag stick to the top of the screen using javascript --->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 		<script src="Navbar.js"></script>
 	</head>
 	<body>
-	<div id="banner">
-     <h2>put what you want here</h2>
-     <p>just adjust javascript size to match this window</p>
-  </div>
-
-  <nav id='nav_bar'>
-    <ul class='nav_links'>
-      <li><a href="url">Nav Bar</a></li>
-      <li><a href="url">Sign In</a></li>
-      <li><a href="url">Blog</a></li>
-      <li><a href="url">About</a></li>
-    </ul>
-  </nav>
-<div id='body_div'>
-    <p style='margin: 0; padding-top: 50px;'>and more stuff to continue scrolling here</p>
-</div>
-
-	
-	
+		<!--- Colour scheme to match the 2 companies brand colours and make the asthetics look good--->
+	<div style="height:200px; background-color:#0099ff">
+		 <h1 style="font-size:400%; text-align:center;"> Boeing And Airbus Aircraft Identification </h1>
+	</div>
+		<nav id='nav_bar' >
+			<ul class='nav_links' style="text-align:center">
+				<li><a href="Homepage.html">Home page</a></li>
+				<li><a href="4_Engine_Wide-Body.html">Four Engine Wide-Body</a></li>
+				<li><a href="#">Twin Engine Wide-Body</a></li>
+				<li><a href="#">Twin Engine Narrow-Body</a></li>
+			</ul>
+		</nav>
+		
+		<div style="background-color:#00205b">
+		
+		<table>
+			<tr>
+				<td colspan="2" style="background-color:white;">
+				Welcome to the exciting world of aviation! Have you ever looked up at the sky and wondered which plane is soaring above you? Are you curious about the different types of planes that you see taking off and landing at airports? If so, you're in the right place! Here at our website, we're dedicated to teaching you how to identify the differences between two of the most popular commercial aircraft manufacturers in the world: Airbus and Boeing. Whether you're an aviation enthusiast, a frequent flyer, or simply curious about planes, we've got you covered. 
+				</td>
+			</tr>
+			<tr>
+				<td style="width:50%">
+				<img src="b747-8.png" alt="Quatar airways B747 taking off">
+				Photo Credit:Mehmet Mustafa Çelik, Airliners.net
+				</td>
+				<td  style="width:50%">
+				<img src="a380-800.png" alt="Quatar airways A380 taking off">
+				Photo Credit: Unknown, theflight.info
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" style="background-color:white">
+				The images above show a Boeing 747(Left) and an Airbus A380(Right). These aircraft fall under the category of four engine wide-body. They are the most recognisable aircraft because of the 747's hump and the A380's full two stories.
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" style="background-color:white">
+				The images below are an example of the more difficult to distinguish aircraft. They are the Boeing 757(Left) and the Airbus A321neo(Right). At first glance, these aircraft are identical and even experienced plane spotters have difficulty telling them apart.
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<img src="b757.png" alt="American airlines B757 taking off">
+				Photo Credit: Andrew Solis, jetphotos.com
+				</td>
+				<td>
+				<img src="A350.png" alt="American airlines A321 taking off">
+				Photo Credit: Ricky Teteris, Jetphotos.com
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" style="background-color:white">
+				In conclusion, identifying the differences between Airbus and Boeing planes may seem like a daunting task, but with the right knowledge and guidance, it can be an incredibly rewarding and enjoyable experience. By exploring the unique features and design details of these two iconic brands, you'll gain a deeper understanding and appreciation of the incredible engineering that goes into creating some of the world's most advanced and sophisticated aircraft.
+				<br>
+				<br>
+				If you are interested and want to know more, there are many resources online that can help, such as <a href="https://www.youtube.com/watch?v=RNinfd8NJHI" target="_blank">this video</a> by Captain Joe on Youtube.
+				</td>
+			</tr>
+		</table>
+		<br>
+		<br>
+		</div>
 	</body>
-</html>
+</html>	
